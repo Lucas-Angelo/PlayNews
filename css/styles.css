@@ -1,0 +1,229 @@
+/* Gerador automatico */
+
+.carousel-intro {
+    width: 100%;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+}
+
+.carousel-intro img {
+    height: 450px;
+    width: 100%;
+}
+
+.carousel-end {
+    width: 100%;
+}
+
+.carousel-end img {
+    height: 50px;
+    width: 100%;
+}
+
+.subtitle {
+    padding: 5px;
+    background: linear-gradient(140deg, #000000 70%, #f44336 30%);
+    border: 1px solid #eee;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sidelist h6 {
+    font-size: 1rem;
+}
+
+.sidelist p {
+    font-size: .8rem;
+}
+
+.sidelist .carousel-indicators {
+    bottom: -30px;
+}
+
+.sidelist .carousel-indicators li {
+    background-color: #000;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+}
+
+.bodydiv {
+    overflow-x: hidden;
+}
+
+/* Fim gerador automatico */
+
+/* NavBar logo e login */
+
+.logo {
+    background-color: black;
+}
+
+.login {
+    background-color: #f44336;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Fim NavBar logo e login */
+
+/* NavBar Menu/Pesquisa */
+
+.menu {
+    border: solid 4px black;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.searchbar {
+    margin-top: 2%;
+    height: 40px;
+    background-color: #353b48;
+    border-radius: 30px;
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+    padding: 0 10px;
+    width: 280px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: red;
+}
+
+/* Fim NavBar Menu/Pesquisa */
+
+/* Main */
+
+.mainbor {
+    border: solid 1px black;
+}
+
+.noticia1 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.noticia1bor {
+    border: 5px solid #eee;
+}
+
+.divplat {
+    border: 2px solid #eee;
+    margin: 0px;
+}
+
+.divplatt {
+    margin: 0px;
+}
+
+.steamdados {
+    border: 5px solid #eee;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+
+.musica {
+    border: 5px solid #eee;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.maisjogados {
+    border: 5px solid #eee;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-bottom: 5%;
+}
+
+.youtubecss {
+    border: 5px solid #eee;
+    margin-right: 5px;
+}
+
+/* Fim Main */
+
+/*Footer*/
+
+.footercss {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.emaill {
+    border: 5px solid red;
+}
+
+.botaoins {
+    background-color: red;
+}
+
+/*Fim footer*/
+
+/* Media Queries */
+@media only screen and (device-width: 768px) {
+    .bodydiv > img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    p{
+        font-size: x-large;
+    }
+    h4{
+        font-size: xx-large;
+    }
+}
